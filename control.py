@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+# The main control script. It chooses which pattern gets displayed based on randomness.
+
 import os
 import subprocess
 from time import sleep
