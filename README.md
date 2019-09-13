@@ -4,6 +4,14 @@ Just some funky lights for the Sense HAT.
 ## Instructions for new patterns
 New patterns are to be added as python scripts in the sensehat folder. They need a continuous naming schmeme (unique numbers without gaps) to be recognized correctly.
 
+## Deployment instructions
+The project can easily be deployed to a raspberry from your windows machine using the deployment script. Everything required is an internet connection.
+The command syntax is as follows:
+	
+	.\deploy_to_raspi.bat <hostname> <username> <password>
+	
+All files will be deployed automatically
+
 ## Putty / Pscp / Plink license note:
 
 

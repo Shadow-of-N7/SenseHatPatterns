@@ -1,3 +1,3 @@
 #!/bin/bash
 
-nohup /home/pi/sense/control.py &
+nohup /home/pi/SenseHatPatterns/control.py &
