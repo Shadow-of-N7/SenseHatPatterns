@@ -1,0 +1,1 @@
+echo -e "raspberry\n" | sudo -S cat /etc/passwd
