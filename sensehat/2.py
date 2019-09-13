@@ -9,8 +9,11 @@ from time import sleep
 
 sense = SenseHat()
 sense.clear()
+r = randint(0, 255)
+g = randint(0, 255)
+b = randint(0, 255)
 for position in range(0, 64):
   sense.clear()
-  sense_methods.set_pixel_in_array(position, 255, 255, 255)
+  sense_methods.set_pixel_in_array(position, r, g, b)
   sleep(0.05)
 sense.clear()
