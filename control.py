@@ -7,7 +7,7 @@ from random import randint
 from sense_hat import SenseHat
 
 #curr_dir = os.getcwd()
-curr_dir = "/home/pi/sense"
+curr_dir = "/home/pi/SenseHatPatterns"
 sensehat_scripts = curr_dir + "/sensehat/"
 sense = SenseHat()
 
