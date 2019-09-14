@@ -2,6 +2,7 @@ echo Making scripts executable...
 sudo chmod +x /home/pi/SenseHatPatterns/control.py
 sudo chmod +x /home/pi/SenseHatPatterns/start_matrix.sh
 sudo chmod +x /home/pi/SenseHatPatterns/stop_matrix.sh
+sudo chmod +x /home/pi/SenseHatPatterns/deploy/killall.sh
 echo Restarting service...
 cd /home/pi/SenseHatPatterns/
 ./stop_matrix.sh
