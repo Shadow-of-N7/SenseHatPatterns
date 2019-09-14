@@ -7,7 +7,7 @@ REM Cleanup and recreate project folder
 %~dp0plink.exe %2@%1 -batch -pw %3 -m %~dp0deploy\commands_folder.txt
 REM Transfer files
 echo Starting file transfer...
-%~dp0pscp.exe -r -pw %3 %~dp0* %2@%1:/home/pi/SenseHatPatterns
+%~dp0pscp.exe -r -pw %3 %~dp0* %2@%1:/home/pi/SenseHatPatterns | dir /s/b * | findstr /v "\.git"
 echo File transfer complete.
 REM Make scripts executable and execute
 %~dp0plink.exe %2@%1 -batch -pw %3 -m %~dp0deploy\commands_exec.txt

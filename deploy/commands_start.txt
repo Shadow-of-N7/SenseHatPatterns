@@ -1,3 +1,5 @@
+cd /home/pi/SenseHatPatterns/deploy/
+./install_sensehat.sh
 cd /home/pi/SenseHatPatterns/
 ./start_matrix.sh
 echo Restart complete.
