@@ -10,7 +10,7 @@ The command syntax is as follows:
 	
 	.\deploy_to_raspi.bat <hostname> <username> <password>
 	
-All files will be deployed automatically
+All files will be deployed automatically; if there is already an instance of the project running, it will be terminated an its files removed, the Sense HAT will be reset and the new version will be started. Warning: Any local changes on the Pi will be lost in the process.
 
 ## Putty / Pscp / Plink license note:
 
