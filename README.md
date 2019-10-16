@@ -12,7 +12,7 @@ The command syntax is as follows:
 	
 All files will be deployed automatically; if there is already an instance of the project running, it will be terminated an its files removed, the Sense HAT will be reset and the new version will be started. Warning: Any local changes on the Pi will be lost in the process.
 
-## Putty / Pscp / Plink license note:
+## Putty / Pscp / Plink license note (which are used in this project):
 
 
     PuTTY is copyright 1997-2019 Simon Tatham.
