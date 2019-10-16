@@ -1,5 +1,5 @@
 # SenseHatPatterns
-Just some funky lights for the Sense HAT. The project consists of a collection of stand-alone pattern scripts, triggered by a control script. Automated deployment to the raspberry is included.
+Just some funky lights for the Sense HAT. The project consists of a collection of stand-alone pattern scripts, triggered by a control script. Automated deployment to the raspberry is included. This is just a fun project created from te urgent need to quickly test some malfunctioning Sense HATs, so quick and dirty programming patterns might still occur.
 
 ## Instructions for new patterns
 New patterns are to be added as python scripts in the sensehat folder. They need a continuous naming schmeme (unique numbers without gaps) to be recognized correctly.
