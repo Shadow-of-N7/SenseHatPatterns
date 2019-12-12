@@ -4,6 +4,7 @@
 
 import os
 import subprocess
+import datetime
 from time import sleep
 from random import randint
 from sense_hat import SenseHat
@@ -11,6 +12,11 @@ from sense_hat import SenseHat
 #curr_dir = os.getcwd()
 curr_dir = "/home/pi/SenseHatPatterns"
 sensehat_scripts = curr_dir + "/sensehat/"
+
+today = datetime.date.today()
+if datetime.date(datetime.datetime.now().year, 12, 1) <= today <= datetime.date(datetime.datetime.now().year, 12, 31):
+  sensehat_scripts = curr_dir + "/sensehat/christmas/"
+
 sense = SenseHat()
 
 def main():
